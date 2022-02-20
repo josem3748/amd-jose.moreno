@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css" />
     <!--Font Awesome-->
     <link
       rel="stylesheet"
@@ -27,220 +27,362 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <nav class="nav__list">
-        <a href="index.html"><i class="fas fa-code"></i></a>
-        <div>
-          <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="pages/servicios.html">Servicios</a></li>
-            <li><a href="pages/educacion.html">Educación</a></li>
-            <li><a href="pages/nosotros.html">Nosotros</a></li>
-            <li><a href="pages/contacto.html">Contacto</a></li>
-          </ul>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><i class="fas fa-code"></i
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="pages/servicios.html"
+                  >Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="pages/educacion.html"
+                  >Educación</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="pages/nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="pages/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
-    <section class="banner banner--bg-opacity">
-      <div class="banner__content">
-        <h1 class="animate__animated animate__rubberBand">
-          AMD - Agencia de <br />Marketing Digital
-        </h1>
-        <a href="pages/contacto.html"><button>Contáctanos</button></a>
-      </div>
-    </section>
-    <hr />
-    <section class="video">
-      <div class="column column--2">
-        <h2>
-          Marketing digital de<br />
-          performance
-        </h2>
-      </div>
-      <div class="column column--2">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/YuoaO77Fr5E"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </section>
-    <hr />
-    <section class="metodologia">
-      <h2 class="metodologia__titulo">
-        Conoce nuestra metodología<br />
-        de trabajo
-      </h2>
-      <div class="columns">
-        <div class="column column--3">
-          <i class="fas fa-search"></i>
-          <h3>Diagnóstico</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            incidunt modi saepe nihil perspiciatis fugit accusamus nobis iste!
-            Velit perspiciatis sed soluta? Praesentium quidem obcaecati,
-            repellat voluptatem quo pariatur molestiae.
-          </p>
-          <span>Saber más</span>
-        </div>
-        <div class="column column--3">
-          <i class="fas fa-laptop-code"></i>
-          <h3>Implementación</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            incidunt modi saepe nihil perspiciatis fugit accusamus nobis iste!
-            Velit perspiciatis sed soluta? Praesentium quidem obcaecati,
-            repellat voluptatem quo pariatur molestiae.
-          </p>
-          <span>Saber más</span>
-        </div>
-        <div class="column column--3">
-          <i class="fas fa-hammer"></i>
-          <h3>Mejora continua</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            incidunt modi saepe nihil perspiciatis fugit accusamus nobis iste!
-            Velit perspiciatis sed soluta? Praesentium quidem obcaecati,
-            repellat voluptatem quo pariatur molestiae.
-          </p>
-          <span>Saber más</span>
-        </div>
-      </div>
-    </section>
-    <hr />
-    <section class="testimonios">
-      <div>
-        <h2>Testimonios</h2>
-        <h3>Qué piensan nuestros clientes de nuestro trabajo</h3>
-        <div class="columns">
-          <div class="column column--6">
-            <img
-              src="https://pngimg.com/uploads/face/face_PNG5653.png"
-              alt=""
-            />
-            <h4>Excelente</h4>
-          </div>
-          <div class="column column--6">
-            <img
-              src="https://pngimg.com/uploads/face/face_PNG5653.png"
-              alt=""
-            />
-            <h4>Excelente</h4>
-          </div>
-          <div class="column column--6">
-            <img
-              src="https://pngimg.com/uploads/face/face_PNG5653.png"
-              alt=""
-            />
-            <h4>Excelente</h4>
-          </div>
-          <div class="column column--6">
-            <img
-              src="https://pngimg.com/uploads/face/face_PNG5653.png"
-              alt=""
-            />
-            <h4>Excelente</h4>
-          </div>
-          <div class="column column--6">
-            <img
-              src="https://pngimg.com/uploads/face/face_PNG5653.png"
-              alt=""
-            />
-            <h4>Excelente</h4>
-          </div>
-          <div class="column column--6">
-            <img
-              src="https://pngimg.com/uploads/face/face_PNG5653.png"
-              alt=""
-            />
-            <h4>Excelente</h4>
-          </div>
-          <div class="column column--6">
-            <img
-              src="https://pngimg.com/uploads/face/face_PNG5653.png"
-              alt=""
-            />
-            <h4>Excelente</h4>
+    <section class="d-flex banner--bg-opacity">
+      <div class="container d-flex col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-5 py-5">
+          <div class="col-lg-8">
+            <h1 class="lh-base mb-3 text-white">
+              AMD - Agencia de Marketing Digital
+            </h1>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="pages/contacto.html"
+                ><button
+                  type="button"
+                  class="btn btn-primary px-4 me-md-2 animate__animated animate__rubberBand"
+                >
+                  Contáctanos
+                </button></a
+              >
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <hr />
-    <section class="queesperas">
-      <div class="columns">
-        <div class="column column--2 column--2--right">
-          <h3>
+    <hr class="m-0" />
+    <section class="py-5">
+      <div class="container col-xxl-8 px-4">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <h2 class="fw-bold lh-base mb-3">
+              Marketing digital de performance
+            </h2>
+          </div>
+          <div class="col-10 col-sm-8 col-lg-6">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/YuoaO77Fr5E"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="rounded"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <section class="metodologia py-5">
+      <div class="container col-xxl-8 pb-4">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <h2 class="lh-base mb-3">Conoce nuestra metodología de trabajo</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid col-xxl-8 px-5">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-4">
+            <i class="fas fa-search"></i>
+            <h3 class="lh-base mb-3">Diagnóstico</h3>
+            <p class="lh-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              incidunt modi saepe nihil perspiciatis fugit accusamus nobis iste!
+              Velit perspiciatis sed soluta? Praesentium quidem obcaecati,
+              repellat voluptatem quo pariatur molestiae.
+            </p>
+            <span>Saber más</span>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas fa-laptop-code"></i>
+            <h3 class="lh-base mb-3">Implementación</h3>
+            <p class="lh-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              incidunt modi saepe nihil perspiciatis fugit accusamus nobis iste!
+              Velit perspiciatis sed soluta? Praesentium quidem obcaecati,
+              repellat voluptatem quo pariatur molestiae.
+            </p>
+            <span>Saber más</span>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas fa-hammer"></i>
+            <h3 class="lh-base mb-3">Mejora continua</h3>
+            <p class="lh-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              incidunt modi saepe nihil perspiciatis fugit accusamus nobis iste!
+              Velit perspiciatis sed soluta? Praesentium quidem obcaecati,
+              repellat voluptatem quo pariatur molestiae.
+            </p>
+            <span>Saber más</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <section class="testimonios py-5">
+      <div class="row pb-4">
+        <h2 class="text-center">Testimonios</h2>
+      </div>
+      <div class="row pb-4">
+        <h3 class="h5 text-center">
+          Qué piensan nuestros clientes de nuestro trabajo
+        </h3>
+      </div>
+      <div class="row text-center pt-5 px-5">
+        <div class="col-lg">
+          <img
+            class="pb-4"
+            src="https://pngimg.com/uploads/face/face_PNG5653.png"
+            alt=""
+          />
+          <h4 class="h6">Excelente</h4>
+        </div>
+        <div class="col-lg">
+          <img
+            class="pb-4"
+            src="https://pngimg.com/uploads/face/face_PNG5653.png"
+            alt=""
+          />
+          <h4 class="h6">Excelente</h4>
+        </div>
+        <div class="col-lg">
+          <img
+            class="pb-4"
+            src="https://pngimg.com/uploads/face/face_PNG5653.png"
+            alt=""
+          />
+          <h4 class="h6">Excelente</h4>
+        </div>
+        <div class="col-lg">
+          <img
+            class="pb-4"
+            src="https://pngimg.com/uploads/face/face_PNG5653.png"
+            alt=""
+          />
+          <h4 class="h6">Excelente</h4>
+        </div>
+        <div class="col-lg">
+          <img
+            class="pb-4"
+            src="https://pngimg.com/uploads/face/face_PNG5653.png"
+            alt=""
+          />
+          <h4 class="h6">Excelente</h4>
+        </div>
+        <div class="col-lg">
+          <img
+            class="pb-4"
+            src="https://pngimg.com/uploads/face/face_PNG5653.png"
+            alt=""
+          />
+          <h4 class="h6">Excelente</h4>
+        </div>
+        <div class="col-lg">
+          <img
+            class="pb-4"
+            src="https://pngimg.com/uploads/face/face_PNG5653.png"
+            alt=""
+          />
+          <h4 class="h6">Excelente</h4>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <section class="queesperas container py-5">
+      <div class="row d-flex col-xxl-8">
+        <div class="col-lg-6 p-4">
+          <h3 class="h5">
             ¿Qué estás esperando?<br />¡Agendá tu call de diagnóstico gratis hoy
             mismo!
           </h3>
         </div>
-        <div class="column column--2 column--2--left">
-          <a href="tel:5554280940"><button>Llamar</button></a>
+        <div class="col-lg-6 p-4">
+          <a href="tel:5554280940"
+            ><button type="button" class="btn btn-primary px-4 me-sm-3">
+              Llamar
+            </button></a
+          >
           <a href="pages/contacto.html"
-            ><button class="botonDiferente">Contáctanos</button></a
+            ><button type="button" class="btn btn-outline-secondary px-4">
+              Contáctanos
+            </button></a
           >
         </div>
       </div>
     </section>
-    <hr />
+    <hr class="m-0" />
     <footer>
-      <div class="columns">
-        <div class="column--2 column--2--footerLeft">
-          <div class="column column--footer">
-            <i class="fas fa-code"></i>
-            <span>AMD</span>
+      <div class="row p-4">
+        <div class="col-lg-6 p-4">
+          <i class="fas fa-code"></i>
+          <span>AMD</span>
+        </div>
+        <div class="col-lg-4 d-flex p-4">
+          <div class="col">
+            <span class="h5 mb-2 d-flex justify-content-center">Section</span>
+            <ul class="nav flex-column d-flex align-content-center">
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <span class="h5 mb-2 d-flex justify-content-center">Section</span>
+            <ul class="nav flex-column d-flex align-content-center">
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <span class="h5 mb-2 d-flex justify-content-center">Section</span>
+            <ul class="nav flex-column d-flex align-content-center">
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="column--2 column--2--footerRight">
-          <div class="column column--footer">
-            <h4>Servicios</h4>
-            <p>Lorem</p>
-            <p>Lorem</p>
-            <p>Lorem</p>
+        <div class="col-lg-2 p-4">
+          <div class="col pb-4">
+            <a href="tel:5554280940"
+              ><button type="button" class="btn btn-primary px-4 me-sm-3 w-100">
+                Llamar
+              </button></a
+            >
           </div>
-          <div class="column column--footer">
-            <h4>Nosotros</h4>
-            <p>Lorem</p>
-            <p>Lorem</p>
-            <p>Lorem</p>
-          </div>
-          <div class="column column--footer">
-            <h4>Legales</h4>
-            <p>Lorem</p>
-            <p>Lorem</p>
-            <p>Lorem</p>
-          </div>
-          <div class="column column--footer column--footer--botones">
-            <a href="tel:5554280940"><button>Llamar</button></a>
+          <div class="col">
             <a href="pages/contacto.html"
-              ><button class="botonDiferente">Contáctanos</button></a
+              ><button
+                type="button"
+                class="btn btn-outline-secondary px-4 w-100"
+              >
+                Contáctanos
+              </button></a
             >
           </div>
         </div>
       </div>
-      <hr />
-      <div class="columns columns--copyright">
-        <div class="column column--copyright--left">
-          <span>© AMD 2021. We love our job!</span>
-        </div>
-        <div class="column column--copyright--right">
+
+      <div class="d-flex justify-content-between p-4 mb-4 border-top">
+        <p>© AMD 2022. We love our job!</p>
+        <ul class="list-unstyled d-flex">
           <span>Seguinos:</span>
-          <a href="https://www.facebook.com/" target="_blank" rel="nofollow"
-            ><i class="fab fa-facebook"></i
-          ></a>
-          <a href="https://www.instagram.com/" target="_blank" rel="nofollow"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="nofollow"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-        </div>
+          <li class="ms-3">
+            <a href="https://www.facebook.com/" target="_blank" rel="nofollow"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a href="https://www.instagram.com/" target="_blank" rel="nofollow"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a href="https://www.linkedin.com/" target="_blank" rel="nofollow"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
