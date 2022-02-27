@@ -1,0 +1,15 @@
+.iconStyle {
+  font-size: 2.5rem;
+  padding: 2.5rem;
+  color: $main_color;
+}
+
+@each $icon in fas, fab, far {
+  .metodologia .#{$icon} {
+    @extend .iconStyle;
+  }
+
+  .servicios .#{$icon} {
+    @extend .iconStyle;
+  }
+}
