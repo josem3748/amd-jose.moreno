@@ -22,7 +22,7 @@ h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold !important; }
 
-.iconStyle, .metodologia .fas, .servicios .fas, .metodologia .fab, .servicios .fab, .metodologia .far, .servicios .far {
+.icon-style, .metodologia .fas, .servicios .fas, .metodologia .fab, .servicios .fab, .metodologia .far, .servicios .far {
   font-size: 2.5rem;
   padding: 2.5rem;
   color: #0032ff; }
@@ -32,9 +32,6 @@ button {
 
 button:hover {
   transform: scale(1.1, 1.1); }
-
-body {
-  font-family: "Roboto", sans-serif; }
 
 .banner--bg-opacity {
   position: relative;
